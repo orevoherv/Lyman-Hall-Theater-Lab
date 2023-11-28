@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 6
+   Case Problem 3
+
+   Calendar Style Sheet
+   Author: Tristan Poss
+   Date:  10/14/2023
+
+   Filename:   lht_tables.css
+
+*/
+
+	table {
+		background: url(lht_photo1.png) bottom right / 40% no-repeat;
+		border: 10px double #8EB1C7;
+		border-spacing: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 85%;
+		min-width: 640px;
+		table-layout: fixed;
+	}
+	
+	th,td {
+		font-size: 0.85em;
+		padding: 10px;
+		vertical-align: top;
+		width: 14.28%;
+
+	}
+	
+	td {
+		background-color: rgba(232, 214, 148, 0.6);
+		color: rgb(11, 12, 145);
+		border: 1px solid #9A4003;
+		box-shadow: inset 0 0 20px #FFAD76;
+	}
+	
+	thead {
+		background-color: rgb(154, 64, 3);
+		color: white;
+		letter-spacing: 2px;
+		text-align: center;
+	}
+
+	
+	caption {
+		caption-side: top;
+		align-content: center;
+		padding-bottom: 10px;
+		font-size: 1.2em;
+		letter-spacing: 3px;
+	}
+	
+	td h1{
+		float: right;
+
+	}
+
+	td dt{
+		font-weight: bold;
+		padding-top: 15px;
+	}
+	
+	td dd:last-of-type{
+		padding-bottom: 10px;
+
+	}
+ 
+	 tr:nth-of-type(1) td:first-of-type, tr:nth-of-type(1) td:nth-of-type(2), tr:nth-of-type(1) td:nth-of-type(3), tr:nth-of-type(1) td:nth-of-type(4), tr:last-of-type td:nth-of-type(5), tr:last-of-type td:nth-of-type(6), tr:last-of-type td:last-of-type {
+		
+		background-color: rgba(171, 171, 171, 0.6);
+		box-shadow: none;
+		color: black;
+		border-color: gray;
+	}
+
+
+
+
+
+
+
+
+
+

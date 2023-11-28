@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 6
+   Case Problem 3
+
+   LHT Columns Style Sheet
+
+   Filename:   lht_columns.css
+
+*/
+
+
+/* Column Styles */
+
+article {
+	column-width: 260px;
+	column-gap: 20px;
+	column-rule: 1px solid rgb(154, 64, 31);
+	orphans: 2;
+	widows: 2;
+}
+
+article h2 {
+	column-span: all;
+}
+
